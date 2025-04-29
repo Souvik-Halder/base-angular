@@ -14,13 +14,11 @@ export class AppComponent {
   user1 = 'Souvik';
   user2 = 'Souvik';
 
-  //The use of the interpolation is the you can use the variables of the typescripts from here to the html code
+  // Angular ClI is a tool used to helps developers to create ,build , test and deploy Angular applications
 
-  //You can use the {{}} in the html which is called the interpolation
-
-  //When we need to display the data in html file from the Ts file
-
-  // Limitation of the interpolation is
-  // - Can't declare the for loops
-  // - Can't declare the varibles in the interpolation
+  //Commands that help you to develop the angular application
+  // Check the documentation
+  // To check the version -> ng --version
+  // To create the angular app -> ng new <app-name>
+  // To create the component ng generate component <component_name>
 }
